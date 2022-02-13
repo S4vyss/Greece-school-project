@@ -1,9 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import Greece from './components/greece'
+import Header from './components/Header'
 
 const App = () => {
   return (
-    <h1>Sex</h1>
+    <>
+      <Header />
+	  <Greece />
+    </>
   )
 }
 

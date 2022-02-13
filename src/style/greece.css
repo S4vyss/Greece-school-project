@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.container {
+  background-color: #92a8d1;
+  font-family: "Montserrat", sans-serif;
+  padding: 30px;
+}
+
+.naglowek {
+  text-align: center;
+}
+
+.reszta {
+  padding-top: 150px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0px;
+}
+
+img {
+  padding: 0 0 70px 90px;
+  width: 40%;
+  transition: transform 0.2s;
+}
+
+img:hover {
+  transform: scale(1.5);
+}
+
+.stolica,
+.stolica-info {
+  padding-top: 150px;
+}
+
+p {
+  font-size: larger;
+}
