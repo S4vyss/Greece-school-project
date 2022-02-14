@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 
+body {
+  background-color: #2e2b2b;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -7,14 +11,19 @@
 }
 
 h1 {
+  border-bottom: 5px solid #0088a9;
+  display: inline-block;
   padding-top: 100px;
   text-align: center;
 }
 
 .container {
-  background-color: #92a8d1;
+  margin: 0 auto;
+  padding: 0;
+  width: 60%;
+  background-color: #2e2b2b;
   font-family: "Montserrat", sans-serif;
-  padding: 30px;
+  padding: 30px 0px 150px;
 }
 
 .naglowek {
@@ -22,15 +31,15 @@ h1 {
 }
 
 .reszta {
-  padding-top: 150px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 img {
-  padding: 0 0 70px 90px;
-  width: 40%;
+  padding: 120px 0px 120px 0px;
+  width: 400px;
   transition: transform 0.2s;
 }
 
@@ -38,11 +47,15 @@ img:hover {
   transform: scale(1.5);
 }
 
-.stolica,
-.stolica-info {
-  padding-top: 150px;
+p {
+  font-family: AeonikPro-Regular, Arial, sans-serif;
+  color: rgb(146, 146, 146);
+  text-align: center;
+  padding-left: 250px;
+  padding-right: 250px;
+  font-size: larger;
 }
 
-p {
-  font-size: larger;
+.stolica {
+  width: 350px;
 }
