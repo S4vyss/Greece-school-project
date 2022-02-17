@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import '../style/header.css'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
 
@@ -18,33 +19,33 @@ const Header = () => {
 
   return (
     <header className={navbar ? 'navbar active' : 'navbar'}>
-        <a href='#' className='naglowek'><button>GRECJA</button></a>
+        <Link to="/" className='naglowek'><button>GRECJA</button></Link>
         <nav>
             <ul className='podStrony'>
                 <li>
-                    <a href="#">
-                        Przycisk 1
-                    </a>
+                    <Link to="/wykres">
+                        Wykres
+                    </Link>
                 </li>
                 <li>
-                    <a href="#">
-                        Przycisk 2
-                    </a>
+                    <Link to="/telefon">
+                        Telefon
+                    </Link>
                 </li>
                 <li>
-                    <a href="#">
-                        Przycisk 3
-                    </a>
+                    <Link to="/miejsca">
+                        Miejsca
+                    </Link>
                 </li>
                 <li>
-                    <a href="#">
-                        Przycisk 4
-                    </a>
+                    <Link to="/zdjecia">
+                        Zdjecia
+                    </Link>
                 </li>
                 <li>
-                    <a href="#">
-                        Przycisk 5
-                    </a>
+                    <Link to="/bibliografia">
+                        Bibliografia
+                    </Link>
                 </li>
             </ul>
         </nav>

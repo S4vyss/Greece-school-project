@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  font-family: AeonikPro-Regular, Arial, sans-serif;
+  color: rgb(146, 146, 146);
+  padding: 40px 0;
+}
+
+.wykres {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
