@@ -16,6 +16,7 @@ button {
   font-size: 16px;
   color: white;
   text-decoration: none;
+  outline: none;
 }
 
 .navbar {
@@ -49,6 +50,18 @@ button {
 
 .podStrony li a:hover {
   color: #0088a9;
+}
+
+.podStrony a::after {
+  display: block;
+  content: "";
+  border-bottom: 2px solid #0088a9;
+  transform: scaleX(0);
+  transition: transform 500ms ease-in-out;
+}
+
+.podStrony a:hover::after {
+  transform: scaleX(1);
 }
 
 button {

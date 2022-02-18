@@ -1,3 +1,5 @@
+import '../style/stylePages/miejsca.css'
+
 const Miejsca = () => {
   return (
     <div>

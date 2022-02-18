@@ -12,10 +12,22 @@ body {
 
 h1 {
   color: white;
-  border-bottom: 5px solid #0088a9;
   display: inline-block;
-  padding-top: 100px;
+  margin-top: 100px;
   text-align: center;
+  user-select: none;
+}
+
+h1::after {
+  display: block;
+  content: "";
+  border-bottom: 5px solid #0088a9;
+  transform: scaleX(0);
+  transition: transform 500ms ease-in-out;
+}
+
+h1:hover::after {
+  transform: scaleX(1);
 }
 
 .container {
