@@ -40,9 +40,6 @@ footer {
 .socials a {
   text-decoration: none;
   color: white;
-}
-
-.socials a {
   transition: color 0.4s ease;
 }
 

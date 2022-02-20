@@ -2,4 +2,55 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, 347px);
+  justify-content: center;
+
+  margin-bottom: 100px;
+  width: min(75%);
+  margin-inline: auto;
+}
+
+figure {
+  display: table;
+}
+
+figcaption {
+  padding: 16px;
+  display: table-caption;
+  caption-side: bottom;
+  color: white;
+  background-color: black;
+}
+
+figcaption a,
+h1 {
+  display: inline;
+}
+
+figcaption a {
+  float: right;
+  transition: color 0.4s ease;
+}
+
+figcaption a:hover {
+  color: #0088a9;
+}
+
+figcaption h4 {
+  font-weight: 300;
+}
+
+.naglowekMiejsca {
+  margin-bottom: 100px;
+}
+
+.container-grid img {
+  width: 347px;
+  height: 347px;
 }

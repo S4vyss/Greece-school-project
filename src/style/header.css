@@ -31,7 +31,13 @@ button {
 }
 
 .navbar.active {
-  background-color: #1d2624;
+  animation: backgroundColor 300ms linear 0s 1 normal forwards;
+}
+
+@keyframes backgroundColor {
+  100% {
+    background-color: #1d2624;
+  }
 }
 
 .podStrony {
