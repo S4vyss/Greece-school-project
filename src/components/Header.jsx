@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import '../style/header.css'
 import { Link } from 'react-router-dom'
+import Scroll from './Scroll'
 
 const Header = () => {
 
@@ -19,7 +20,7 @@ const Header = () => {
 
   return (
     <header className={navbar ? 'navbar active' : 'navbar'}>
-        <Link to="/" className='naglowek'><button>GRECJA</button></Link>
+        <Link to="/" className='naglowek'><button className="btn-naglowek">GRECJA</button></Link>
         <nav>
             <ul className='podStrony'>
                 <li>
@@ -46,6 +47,9 @@ const Header = () => {
                     <Link to="/bibliografia">
                         Bibliografia
                     </Link>
+                </li>
+                <li>
+                    <Scroll />
                 </li>
             </ul>
         </nav>

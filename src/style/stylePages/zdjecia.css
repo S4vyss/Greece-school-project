@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.containerZdjecia {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.zdjecia:nth-child(2) {
+  background: #333333;
+}
+
+.zdjecia:nth-child(4) {
+  background: #333333;
+}
+
+.zdjecia:nth-child(6) {
+  background: #333333;
+}
+
+.zdjecia:nth-child(8) {
+  background: #333333;
+}
+
+.zdjecia .containerZdjecia {
+  display: flex;
+  flex-direction: column;
+}
+
+.titleZdjecie h2 {
+  text-align: center;
+}
+
+.zdjecia .containerZdjecia .image {
+  margin: 20px;
+  padding: 20px;
+}
+
+.containerZdjecia a img {
+  font-size: 14px;
+  transition: transform 0.2s;
+}
+
+.containerZdjecia a img:hover {
+  transform: scale(1.03);
+}
+
+.naglowek h1 {
+  margin-bottom: 100px;
+}

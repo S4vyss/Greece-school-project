@@ -1,0 +1,8 @@
+.not-visible {
+  opacity: 0;
+}
+
+.btn {
+  display: inline-flex;
+  opacity: 100;
+}
