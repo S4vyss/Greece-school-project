@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.errorDiv {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.err h1 {
+  font-size: 150px;
+  animation: color-change-1 10s infinite;
+  animation-fill-mode: forwards;
+}
+
+.err h2 {
+  padding-top: 30px;
+}
+
+@keyframes color-change-1 {
+  0% {
+    color: white;
+  }
+  10% {
+    color: #183831;
+  }
+  25% {
+    color: transparent;
+  }
+  50% {
+    color: #1d2624;
+  }
+  60% {
+    color: #183831;
+  }
+  75% {
+    color: transparent;
+  }
+  100% {
+    color: #0088a9;
+  }
+}
