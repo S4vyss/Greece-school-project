@@ -10,9 +10,26 @@ const Greece = () => {
         </div>
         <div className="reszta">
             <img src={ greeceOnMap } />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit veritatis eligendi nesciunt illo velit necessitatibus reprehenderit placeat. Voluptates necessitatibus repellendus nobis culpa sed sapiente voluptate natus suscipit, enim placeat pariatur?</p>
+            <p>Grecja, Republika Grecka – 
+              kraj położony w południowo-wschodniej części Europy, 
+              na południowym krańcu Półwyspu Bałkańskiego. 
+              Graniczy z czterema państwami: Albanią, 
+              Macedonią Północną i Bułgarią od północy oraz Turcją od wschodu. 
+              Grecja pozostaje pod wpływem klimatu śródziemnomorskiego. 
+              Cechuje go łagodna zima z suchym, gorącym latem. 
+              W najcieplejszym miesiącu średnia temperatura wynosi ponad 22 °C. 
+              Liczba ludności na rok 2018 wynosi 10 768 000.
+            </p>
             <img src={ ateny } className="stolica" />
-            <p className="stolica-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae eius praesentium corporis alias veniam commodi voluptatum, voluptate ipsam repellat architecto labore ullam quis! Deserunt delectus sequi, enim cum atque ab!</p>
+            <p className="stolica-info">
+              Ateny – stolica i największe miasto Grecji, 
+              jeden z najważniejszych ośrodków turystycznych Europy z 
+              zabytkami kultury antycznej i zarazem dziesiąty co do wielkości zespół miejski w Unii Europejskiej 
+              na poziomie 3,5 mln mieszkańców. 
+              Ateny znajdują się w strefie klimatu subtropikalnego 
+              typu śródziemnomorskiego, z łagodnymi zimami i długimi ciepłymi, 
+              częściowo gorącymi latami.
+            </p>
         </div>
     </div>
   )
