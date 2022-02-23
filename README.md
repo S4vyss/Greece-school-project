@@ -11,8 +11,6 @@ Basic commands:
 vite --host
 ```
 
-TODO:
-
 ```
 Strona jest responsywna w 50% niektóre elementy sie skalują inne nie, ale nie potrafię tego zrobić więc tak już zostawiłem.
 ```
