@@ -1,7 +1,7 @@
 import '../style/stylePages/zdjecia.css'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
-import { useEffect, } from 'react'
+import { useEffect } from 'react'
 
 const images = {
   "image1": "https://www.visitgreece.gr/images/750x440/1/jpg/files/merakos_01_halkidiki-arnaia_750x440.jpg",
